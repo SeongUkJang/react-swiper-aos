@@ -1,0 +1,21 @@
+.s1 {
+    background-color: #eee;
+    .rel {
+        flex-direction: column;
+        gap: 50px;
+
+        ul.content {
+            display: flex;
+            gap: 20px;
+            li{
+                width: 100px;
+                height: 100px;
+                background-color: rebeccapurple;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

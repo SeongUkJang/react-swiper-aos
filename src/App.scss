@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+section {
+    height: 100vh;
+    position: relative;
+    .rel {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 0 100px;
+
+        h2 {
+            font-size: 60px;
+            text-transform: uppercase;
+        }
+    }
+}

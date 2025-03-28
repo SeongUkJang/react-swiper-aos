@@ -1,0 +1,15 @@
+.s2 {
+    .rel{
+        justify-content: space-between;
+        .tit-wrap {
+            max-width: 500px;
+ 
+        }
+        .img-wrap {
+            width: 500px;
+            height: 400px;
+            background: url(/public/1.jpeg) no-repeat center/cover;
+            border-radius: 10px;
+        }
+    }
+}

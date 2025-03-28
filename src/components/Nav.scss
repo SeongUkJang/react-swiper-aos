@@ -1,0 +1,21 @@
+nav {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    button{
+        width: 15px;
+        height: 15px;
+        background-color: #000;
+        border-radius: 50%;
+        opacity: .3;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+}
